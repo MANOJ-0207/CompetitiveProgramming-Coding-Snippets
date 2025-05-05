@@ -32,6 +32,7 @@ public class Trie
             }
             if (!current.children.containsKey(ch)) {
                 return null;
+                
             }
             prefix.append(ch);
             current = current.children.get(ch);
